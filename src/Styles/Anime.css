@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Fasthand&family=Roboto+Condensed&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap");
+
+#article {
+  color: rgb(199, 222, 248);
+  font-family: "Roboto Condensed", "Exo 2", "Fasthand", sans-serif;
+  font-size: 20px;
+}
+
+.anime-logo {
+  background-color: rgb(26, 26, 26);
+  margin: 20px 0 0 0;
+  width: 20%;
+}
+
+.article-body-div {
+  display: flex;
+  flex-direction: row;
+  width: 98%;
+  margin: 0 15px 0 15px;
+  height: auto;
+  background-color: rgb(26, 26, 26);
+  border-radius: 0 0 15px 15px;
+}
+
+.article-div {
+  align-self: flex-end;
+  align-items: flex-start;
+  background-color: rgb(26, 26, 26);
+  margin: 20px 0 0;
+  padding: 30px;
+}
+
+.article-div p {
+  background-color:  rgba(46, 46, 46, 0.5);
+    box-shadow: 0 10px 50px 30px rgba(46, 46, 46, 0.5);
+  text-align: left;
+  width: 80%;
+  margin: 20px 0 100px 150px;
+  line-height: 2rem;
+}
+
+.background-div {
+  background-color: rgb(26, 26, 26);
+  width: 98%;
+  margin: 0 15px 0 15px;
+  height: auto;
+  background-color: rgb(26, 26, 26);
+  border-radius: 0 0 15px 15px;
+}
+
+.gif {
+  width: 70%;
+  border-radius: 5px;
+  
+}

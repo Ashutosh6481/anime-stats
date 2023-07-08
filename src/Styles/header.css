@@ -1,0 +1,258 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.drawer {
+  position: absolute;
+  width: 100%;
+  opacity: 0.75;
+}
+
+.ham-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.ham-nav a {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  margin-left: 5%;
+}
+
+.header-link {
+  color: white;
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 65px;
+  align-items: center;
+  width: 11%;
+}
+
+input {
+  text-align: left;
+  outline: none;
+}
+
+.maindiv > nav {
+  height: 55px;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(37, 37, 37);
+  top: 0%;
+
+  border-radius: 20px 20px 0px 0px;
+}
+
+.maindiv {
+  margin: 30px 15px 0 15px;
+  border-radius: 20px 20px 0px 0px;
+  background-color: rgb(27, 27, 27);
+  align-items: center;
+  width: 98%;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: white;
+  font-size: 30px;
+  background-color: rgb(37, 37, 37);
+  line-height: 25px;
+  text-align: center;
+}
+
+.main-nav {
+  flex-wrap: wrap;
+  position: relative;
+  /* right: 134px; */
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(37, 37, 37);
+}
+
+.main-nav a {
+  color: white;
+  margin: 1rem;
+  background-color: rgb(37, 37, 37);
+  row-gap: 100px;
+}
+
+.main-nav a:hover {
+  color: rgb(255, 217, 0);
+}
+
+form {
+  width: 12%;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  right: 10%;
+  margin-right: 50px;
+  background-color: rgb(53, 53, 53);
+  margin-left: 20px;
+}
+
+.search-bar-large {
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  border: 1rem;
+  padding: 5px;
+  background-color: rgb(218, 217, 217);
+  border-radius: 3px;
+  width: 330px;
+}
+
+.search-bar-small {
+  width: 15%;
+  background-color: rgb(33, 33, 33);
+  color: grey;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 5px 8px 5px 8px;
+  border: none;
+  margin: -1px;
+}
+
+.search-bar-small:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.drawer-button {
+  border: none;
+  background-color: rgb(37, 37, 37);
+  margin-left: 20px;
+}
+
+.hamburger {
+  color: white;
+  font-size: 35px;
+  background-color: rgb(37, 37, 37);
+}
+
+.hamburger:hover {
+  cursor: pointer;
+}
+
+.search-button {
+  border: none;
+  background-color: rgb(37, 37, 37);
+}
+
+.search-icon {
+  color: white;
+  font-size: 30px;
+  background-color: rgb(37, 37, 37);
+}
+
+.search-icon:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1280px) {
+  h1 {
+    margin-right: 730px;
+    margin-left: 30px;
+  }
+
+  form {
+    width: 115%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 600px;
+    background-color: rgb(53, 53, 53);
+  }
+
+  .header-link {
+    color: white;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 30px;
+    align-items: center;
+    width: 10%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .maindiv {
+    margin: 0 0 0 0;
+    border-radius: 0 0 0 0;
+    background-color: rgb(27, 27, 27);
+    align-items: center;
+    width: 99%;
+  }
+
+  .maindiv > nav {
+    border-radius: 0 0 0 0;
+    width: 97.8%;
+  }
+
+  .form-drawer {
+    width: 100px;
+    background-color: white;
+  }
+
+  form {
+    margin: 0;
+    width: 95%;
+    position: absolute;
+    left: 22px;
+    background-color: rgb(53, 53, 53);
+  }
+
+  .search-bar-large {
+    width: 100%;
+  }
+
+  .search-button {
+    border: none;
+    background-color: rgb(37, 37, 37);
+    position: absolute;
+    right: 30px;
+  }
+
+  .search-icon {
+    color: white;
+    font-size: 30px;
+    background-color: rgb(37, 37, 37);
+  }
+}
+
+  @media screen and (max-width: 600px) {
+    .maindiv {
+      background-color: rgb(27, 27, 27);
+      align-items: center;
+      width: 100%;
+    }
+
+    .maindiv > nav {
+      border-radius: 0 0 0 0;
+      width: 95%;
+    }
+  }
+
+@media screen and (max-width: 500px) {
+  .maindiv > nav {
+    border-radius: 0 0 0 0;
+    width: 93.5%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .maindiv > nav {
+    border-radius: 0 0 0 0;
+    width: 93%;
+  }
+}
